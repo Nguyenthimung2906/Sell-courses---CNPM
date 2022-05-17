@@ -22,6 +22,7 @@ export default class PaypalButton extends React.Component {
             // Because the Paypal's main script is loaded asynchronously from "https://www.paypalobjects.com/api/checkout.js"
             // => sometimes it may take about 0.5 second for everything to get set, or for the button to appear
         }
+        
  
         let env = 'sandbox'; // you can set here to 'production' for production
         let currency = 'USD'; // or you can set this value from your props or state
