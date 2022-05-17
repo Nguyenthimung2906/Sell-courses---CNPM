@@ -2,6 +2,7 @@ import { Switch, Route } from "react-router-dom";
 // import Products from "./Products/Products";
 import ProductHome from "../home/ProductHome";
 import Register from "./auth/Register";
+
 import Login from "./auth/Login";
 import React, { useContext } from "react";
 import { GlobalState } from "../../GlobalState";
