@@ -6,6 +6,7 @@
 // import FormControl from '@mui/material/FormControl';
 // import Select from '@mui/material/Select';
 
+
 // export default function Categories() {
 //     const state = useContext(GlobalState)
 //     // const [categories] = state.categoriesAPI.categories
