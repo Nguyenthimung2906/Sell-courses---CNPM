@@ -25,6 +25,7 @@ let initialState = {
     _id: ''
 }
 
+
 export default function AdminProductsList() {
     const state = useContext(GlobalState)
     const [product, setProduct] = useState(initialState)
