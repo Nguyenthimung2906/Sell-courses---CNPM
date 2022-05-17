@@ -6,6 +6,7 @@ const ScrollTopView = (props) => {
 	const { onScroll, onVisbile, visible } = props
 
 	if (typeof window === 'object') window.addEventListener('scroll', onVisbile)
+	
 
 	return (
 		<>
