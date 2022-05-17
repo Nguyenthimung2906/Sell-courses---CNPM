@@ -5,6 +5,7 @@ import { useParams } from "react-router"
 import Swal from "sweetalert2"
 import { GlobalState } from "../../../../GlobalState"
 
+
 export default function ProductDetail() {
     const state = useContext(GlobalState)
     const [products] = state.productsAPI.products
