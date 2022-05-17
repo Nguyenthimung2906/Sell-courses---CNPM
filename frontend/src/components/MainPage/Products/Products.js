@@ -6,6 +6,7 @@ import Loading from "../support/Loading"
 import Categories from "../filter/Category"
 
 
+
 export default function Products() {
     const state = useContext(GlobalState)
     const [products] = state.productsAPI.products
