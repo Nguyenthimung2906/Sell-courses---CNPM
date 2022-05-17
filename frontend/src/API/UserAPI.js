@@ -27,6 +27,7 @@ export default function UserAPI(token) {
                 }
             }
             getUser()
+            
         }
     }, [token]) 
 
