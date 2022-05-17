@@ -1,4 +1,5 @@
 // const valid = ({name, email, password, cf_password}) => {
+
 //     const err = {}
   
 //     if (!name) {
