@@ -4,6 +4,7 @@ import Swal from "sweetalert2"
 import { GlobalState } from "../../../GlobalState"
 import { Link } from "react-router-dom"
 
+
 export default function ProductItem({ product }) {
     const state = useContext(GlobalState)
     const addCart = state.userAPI.addCart
